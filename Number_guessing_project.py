@@ -2,7 +2,7 @@ from art import logo
 import random as rnd
 print(logo)
 
-random_number = rnd.randint(1,101)
+random_number = rnd.randint(1,100)
 
 def check_answer(user_guess):
     global random_number
